@@ -94,10 +94,6 @@ Example command:
   install PostgreSQL
 ```
 --->
-  install PostgreSQL
-```
----> 
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
