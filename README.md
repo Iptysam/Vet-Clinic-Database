@@ -32,7 +32,7 @@
 
 # 📖 Vet Clinic Database <a name="about-project"></a>
 
-**Vet Clinic Database** is a project which displays animals information and their status
+**Vet Clinic Database** is a project which displays animals information and their status. Update and delete values in the table created.
 
 ## 🛠 Built With <a name="built-with"></a>
 

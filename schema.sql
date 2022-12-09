@@ -9,10 +9,7 @@ CREATE TABLE IF NOT EXISTS public.animals
     date_of_birth integer,
     escape_attempts integer,
     neutered boolean,
-    weight_kg numeric
+    weight_kg numeric,
 )
 
-TABLESPACE pg_default;
-
-ALTER TABLE IF EXISTS public.animals
-    OWNER to postgres;
+ALTER TABLE animals ADD species text COLLATE pg_catalog."default"
