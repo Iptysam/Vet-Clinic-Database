@@ -49,9 +49,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[schema.sql](C:\Users\engr Okei\Okechukwu-muokwugwo\vet_clinic\schema.sql)**
-- **[data.sql](C:\Users\engr Okei\Okechukwu-muokwugwo\vet_clinic\data.sql)**
-- **[queries.sql](C:\Users\engr Okei\Okechukwu-muokwugwo\vet_clinic\queries.sql)**
+- **[schema.sql](queries.sql)**
+- **[data.sql](data.sql)**
+- **[queries.sql](schema.sql)**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,7 +76,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-git clone git@github.com:Iptysam/vet_clinic.git
+git clone git@github.com:Iptysam/Vet-Clinic-Database.git
 
 ### Install
 
@@ -123,7 +123,7 @@ Example command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Iptysam/vet_clinic/issues)
+Feel free to check the [issues page](https://github.com/Iptysam/Vet-Clinic-Database/issues)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
