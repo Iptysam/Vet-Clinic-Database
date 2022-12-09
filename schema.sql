@@ -10,10 +10,6 @@ CREATE TABLE IF NOT EXISTS public.animals
     escape_attempts integer,
     neutered boolean,
     weight_kg numeric,
-    species text COLLATE pg_catalog."default"
 )
 
-TABLESPACE pg_default;
-
-ALTER TABLE IF EXISTS public.animals
-    OWNER to postgres;
+ALTER TABLE animals ADD species text COLLATE pg_catalog."default"

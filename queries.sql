@@ -11,6 +11,7 @@ SELECT * from animals WHERE weight_kg BETWEEN 10.4 AND 17.3;
 
 
 /*Transaction*/
+BEGIN;
 UPDATE animals 
 SET species = 'unspecified';
 
@@ -20,6 +21,7 @@ ROLLBACK;
 SELECT species from animals;
 
 /*Transaction2*/
+BEGIN;
 UPDATE animals SET species = 'dogomun' WHERE name like '%mon';
 UPDATE animals SET species = 'pokemon' WHERE species IS NULL;
 
@@ -44,7 +46,7 @@ SAVEPOINT S1;
 
 DELETE FROM animals WHERE date_of_birth > '20220101';
 
-SAVEPOINT 2;
+SAVEPOINT S2;
 
 UPDATE animals SET weight_kg = weight_kg * -1;
 
